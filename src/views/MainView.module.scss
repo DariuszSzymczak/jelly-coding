@@ -1,0 +1,13 @@
+@use "~/src/styles/config.scss";
+
+.sidebarsBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: config.$siteWidth;
+  margin: auto;
+}
+
+.miniJellyFish {
+  width: 80px;
+}

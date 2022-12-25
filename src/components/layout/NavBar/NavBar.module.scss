@@ -1,0 +1,78 @@
+@use "~/src/styles/colors.scss";
+@use "~/src/styles/config.scss";
+.navBar {
+  width: 100%;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 4px 0px;
+}
+.navBarBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: config.$siteWidth;
+  margin: auto;
+}
+.socialIcon {
+  width: 20px;
+  margin-right: 16px;
+  filter: colors.$filterDarkBlue;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.socialIcon:hover {
+  filter: colors.$filterFirst;
+}
+
+.socialBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 170px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.logo:hover {
+  width: 200px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menuLink {
+  margin-right: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.menuLink:hover {
+  color: colors.$first !important;
+  font-family: "overlock-bold";
+}
+
+.menuGroup {
+  display: flex;
+  flex-direction: row;
+  margin-left: -60px;
+  & * {
+    margin-right: 16px;
+  }
+}
+
+.menuButton {
+  width: 32px;
+  filter: colors.$filterDarkBlue;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.menuButton:hover {
+  filter: colors.$filterFirst;
+}

@@ -1,0 +1,24 @@
+@use "~/src/styles/colors.scss";
+
+.SectionHeader {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+
+  & * {
+    font-family: "overlock-bold";
+    text-align: left;
+    font-size: 23px;
+  }
+}
+
+.center {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.divider {
+  filter: colors.$filterDarkBlue;
+  width: 200px;
+}

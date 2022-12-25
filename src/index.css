@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Overlock";
+  src: local("Overlock"),
+    url("assets/fonts/Overlock/Overlock-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Overlock-bold";
+  src: local("Overlock"),
+    url("assets/fonts/Overlock/Overlock-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+* {
+	font-family: Overlock;
+	
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
